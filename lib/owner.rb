@@ -58,7 +58,7 @@ class Owner
     @@pets.each do |type, name_array|
       name_array.delete(pet)
         pet.mood = "nervous"
-      end 
+       
     end
     @@pets = false
   end
