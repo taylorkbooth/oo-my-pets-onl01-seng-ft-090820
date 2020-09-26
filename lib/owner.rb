@@ -59,6 +59,7 @@ class Owner
       name_array.delete(pet)
         pet.mood = "nervous"
       end
+      binding.pry
   end
   
    def list_pets
