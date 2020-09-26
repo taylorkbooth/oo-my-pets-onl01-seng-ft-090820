@@ -54,12 +54,12 @@ class Owner
     end
   end
   
-  def sell_pets
-    owner.each do |type, name_array|
-      name_array.delete(pet)
-        pet.mood = "nervous"
+  # def sell_pets
+  #   owner.each do |type, name_array|
+  #     name_array.delete(pet)
+  #       pet.mood = "nervous"
       
-  end
+  # end
   
    def list_pets
     "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
