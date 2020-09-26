@@ -61,7 +61,7 @@ class Owner
         #name_array.delete(pet)
       end 
     end
-    @@pets = {}
+    @@pets = false
   end
   
    def list_pets
