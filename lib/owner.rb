@@ -58,8 +58,7 @@ class Owner
     owner.each do |type, name_array|
       name_array.delete(pet)
         pet.mood = "nervous"
-      end
-      # binding.pry
+      
   end
   
    def list_pets
