@@ -55,7 +55,7 @@ class Owner
   end
   
   def sell_pets
-    @pets.each do { |o| expect(o.owner).to be(nil) }
+    @pets.each do { |o| expect(o.owner) == (nil) }
     end
   end
   
